@@ -1,0 +1,32 @@
+{
+    "name": "lmromero18/api-maker",
+    "description": "Laravel simple api crud maker actualizado",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Luis Romero",
+            "email": "luisromerod21@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "ApiMaker\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v2.0"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "process-timeout": 0
+    }
+}
